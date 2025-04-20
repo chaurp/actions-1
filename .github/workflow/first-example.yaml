@@ -8,9 +8,11 @@ jobs:
       steps:
       - name: welocme msg
         run: echo "hello world"
-        
+
       - name: list
         run: ls
 
       - name: read file
         run: cat READ.md  
+      - name: linux
+        run: touch abc  
