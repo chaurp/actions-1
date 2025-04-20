@@ -1,0 +1,16 @@
+name: my first work flow
+
+on: push
+
+jobs: 
+  fisrt_job: 
+      runs-on: ubuntu-latest
+      steps:
+      - name: welocme msg
+        run: echo "hello world"
+        
+      - name: list
+        run: ls
+
+      - name: read file
+        run: cat READ.md  
