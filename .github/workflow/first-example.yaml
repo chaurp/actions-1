@@ -16,3 +16,6 @@ jobs:
         run: cat READ.md  
       - name: linux
         run: touch abc  
+
+      - name: asd
+        run: touch news  
